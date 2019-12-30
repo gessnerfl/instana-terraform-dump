@@ -1,5 +1,7 @@
 # Instana Terraform Dump
 
+[![Build Status](https://travis-ci.com/gessnerfl/instana-terraform-dump.svg?branch=master)](https://travis-ci.com/gessnerfl/instana-terraform-dump)
+
 This project is a simple command line tool which read resources from Instana (<https://instana.io)> REST API
 <https://instana.github.io/openapi/> and creates the corresponding Terraform resources for them. The resources
 are created for the Terraform Instana Provider from <https://github.com/gessnerfl/terraform-provider-instana>.
