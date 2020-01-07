@@ -99,7 +99,7 @@ func (w *customEventWriterImpl) writeSystemRule(rule *RuleSpecification) {
 
 func (w *customEventWriterImpl) writeThresholdRule(rule *RuleSpecification) {
 	if rule.MetricName != nil {
-		w.appendString(fmt.Sprintf("  ule_metric_name = \"%s\"\n", *rule.MetricName))
+		w.appendString(fmt.Sprintf("  rule_metric_name = \"%s\"\n", *rule.MetricName))
 	}
 	if rule.Window != nil {
 		w.appendString(fmt.Sprintf("  rule_window = %d\n", *rule.Window))
