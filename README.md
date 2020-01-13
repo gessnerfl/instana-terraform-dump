@@ -21,3 +21,17 @@ instana-terraform-dump -key=<api-key> -host=<instana-host-name> -out=<output-fil
 * key = the Instana API key to access Instana REST API
 * host = the Instana Hostname (customer specific endpoint)
 * out = the path to the output file
+
+## How to make
+
+* Install make
+  * add make to path
+* Install go
+  * add go to path "gopath"
+* run make from ./instana-terraform-dump
+  * `make`
+
+### Potential issues during make:
+
+**Error Message:** `golint: command not found`
+**Solution:** If not installed automatically, install `golint` command line tool: `go get -u golang.org/x/lint/golint`
