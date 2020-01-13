@@ -37,7 +37,7 @@ lint:
 .PHONY: fmt
 fmt:
 	@echo "+++++++++++  Run GO FMT +++++++++++ "
-	@test -z $$(go fmt ./...) 
+	@go fmt ./...
 
 .PHONY: update
 update:
