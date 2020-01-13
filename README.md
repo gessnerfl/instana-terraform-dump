@@ -34,4 +34,5 @@ instana-terraform-dump -key=<api-key> -host=<instana-host-name> -out=<output-fil
 ### Potential issues during make:
 
 **Error Message:** `golint: command not found`
+
 **Solution:** If not installed automatically, install `golint` command line tool: `go get -u golang.org/x/lint/golint`
